@@ -1,4 +1,4 @@
-angular.module('SignupMod').controller('SignupCtrl',['$scope', '$http', 'toastr', function($scope, $http, toastr){
+angular.module('SignupMod').controller('SignupCtrl',['$scope', '$http', function($scope, $http){
     console.log('Signup Controller initialized');
 
     $scope.runSignup = function(){
