@@ -63,7 +63,7 @@ module.exports = {
 				return res.negotiate(err);
 			}
 			if(!user){
-				return res.norFound();
+				return res.notFound();
 			}
 
 			require('machinepack-passwords').checkPassword({
